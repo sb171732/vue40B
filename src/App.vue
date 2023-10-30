@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <UV></UV>
+      <VM></VM>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import UV from './components/UslovView.vue'
+// import UV from './components/UslovView.vue'
+import VM from './components/VModel.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    UV
+    // UV
+    VM
   }
 }
 </script>
