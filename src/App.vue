@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <AV></AV>
+      <FV></FV>
   </div>
 </template>
 
@@ -8,15 +8,13 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import UV from './components/UslovView.vue'
 // import VM from './components/VModel.vue'
-import AV from './components/AtrV.vue'
+import FV from './components/ForV.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    // UV
-    // VM
-    AV
+   
+    FV
   }
 }
 </script>
