@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-      <VM></VM>
+      <AV></AV>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import UV from './components/UslovView.vue'
-import VM from './components/VModel.vue'
+// import VM from './components/VModel.vue'
+import AV from './components/AtrV.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // UV
-    VM
+    // VM
+    AV
   }
 }
 </script>

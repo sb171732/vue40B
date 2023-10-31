@@ -2,7 +2,9 @@
     <div class="">
         <h3>{{ fio }}</h3>
         <input class="w3-margin" v-model="login" type="text" style="width: 500px;" placeholder="Введите логин">
+        <br>
         <input class="w3-margin" v-model="password" type="password" style="width: 500px;" placeholder="Введите пароль">
+        <br>
         <button @click="login1">войти</button>
         <hr>
         Выбран : {{ selected  }}
