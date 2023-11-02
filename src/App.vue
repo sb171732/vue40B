@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <GL></GL>
+      <CV></CV>
   </div>
 </template>
 
@@ -9,12 +9,13 @@
 // import UV from './components/UslovView.vue'
 // import VM from './components/VModel.vue'
 // import FV from './components/ForV.vue'
-import GL from './components/GroupList.vue'
-
+// import GL from './components/GroupList.vue'
+// import MV from './components/MethodsV.vue'
+import CV from './components/CalcV.vue'
 export default {
   name: 'App',
   components: {
-    GL
+    CV
   }
 }
 </script>
