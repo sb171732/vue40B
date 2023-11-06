@@ -12,7 +12,7 @@
 // import GL from './components/GroupList.vue'
 // import MV from './components/MethodsV.vue'
 // import CV from './components/CalcV.vue'
-import AV from './components/AnimateV.vue'
+import AV from './components/AnimatedComp.vue'
 export default {
   name: 'App',
   components: {
