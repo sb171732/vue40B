@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <CV></CV>
+      <AV></AV>
   </div>
 </template>
 
@@ -11,11 +11,12 @@
 // import FV from './components/ForV.vue'
 // import GL from './components/GroupList.vue'
 // import MV from './components/MethodsV.vue'
-import CV from './components/CalcV.vue'
+// import CV from './components/CalcV.vue'
+import AV from './components/AnimateV.vue'
 export default {
   name: 'App',
   components: {
-    CV
+    AV
   }
 }
 </script>
