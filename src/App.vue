@@ -1,25 +1,14 @@
 <template>
   <div id="app">
-      <AV></AV>
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/list">GroupList</router-link> |
+      <router-link to="/anim">Animate</router-link> 
+    </nav>
+    <router-view/>
   </div>
 </template>
-
-<script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import UV from './components/UslovView.vue'
-// import VM from './components/VModel.vue'
-// import FV from './components/ForV.vue'
-// import GL from './components/GroupList.vue'
-// import MV from './components/MethodsV.vue'
-// import CV from './components/CalcV.vue'
-import AV from './components/AnimatedComp.vue'
-export default {
-  name: 'App',
-  components: {
-    AV
-  }
-}
-</script>
 
 <style>
 #app {
@@ -28,6 +17,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
