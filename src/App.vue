@@ -4,7 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/list">GroupList</router-link> |
-      <router-link to="/anim">Animate</router-link> 
+      <router-link to="/anim">Animate</router-link>  |
+      <router-link to="/el">Element</router-link>  
+       
     </nav>
     <router-view/>
   </div>

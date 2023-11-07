@@ -25,6 +25,16 @@ const routes = [
     name: 'anim',
     component: () => import(/* webpackChunkName: "about" */ '../components/AnimatedComp.vue')
   },
+  {
+    path: '/el',
+    name: 'el',
+    component: () => import(/* webpackChunkName: "about" */ '../components/ElementUI.vue')
+  },
+  {
+    path: '/anim',
+    name: 'anim',
+    component: () => import(/* webpackChunkName: "about" */ '../components/AnimatedComp.vue')
+  },
 ]
 
 const router = new VueRouter({
