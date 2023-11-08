@@ -35,6 +35,11 @@ const routes = [
     name: 'anim',
     component: () => import(/* webpackChunkName: "about" */ '../components/AnimatedComp.vue')
   },
+  {
+    path: '/check',
+    name: 'check',
+    component: () => import(/* webpackChunkName: "about" */ '../components/CheckList.vue')
+  },
 ]
 
 const router = new VueRouter({
