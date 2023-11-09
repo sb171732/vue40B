@@ -1,7 +1,7 @@
 <template>
    <div class="">
-        <input v-model="new_todo" type="text" placeholder="Новое дело"> 
-        <el-button icon="el-icon-plus" @click="add()"></el-button>
+        <input @keyup="enter()" v-model="new_todo" type="text" placeholder="Новое дело"> 
+        <el-button class="w3-margin-left" icon="el-icon-plus" @click="add()"></el-button>
         <hr>
         Список дел:
         <ul>
@@ -26,6 +26,10 @@ export default {
      }
    },
    methods:{
+    enter(){
+        
+        // если enter то add()
+    },
     add(){
         this.todo.push({checked:false, name:this.new_todo})
         this.new_todo = ''

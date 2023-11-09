@@ -6,7 +6,8 @@
       <router-link to="/list">GroupList</router-link> |
       <router-link to="/anim">Animate</router-link>  |
       <router-link to="/el">Element</router-link>  | -->
-      <router-link to="/check">CheckList</router-link>  
+      <router-link to="/check">CheckList</router-link>  |
+      <router-link to="/bloc">Blocnot</router-link>  
        
     </nav>
     <router-view/>

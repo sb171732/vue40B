@@ -40,6 +40,11 @@ const routes = [
     name: 'check',
     component: () => import(/* webpackChunkName: "about" */ '../components/CheckList.vue')
   },
+  {
+    path: '/bloc',
+    name: 'bloc',
+    component: () => import(/* webpackChunkName: "about" */ '../components/BlocNot.vue')
+  },
 ]
 
 const router = new VueRouter({
